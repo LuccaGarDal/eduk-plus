@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 2 | Lógica de Programação | Eduk+</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a class="brand" href="../../index.html">
+                <span class="brand-mark">E+</span>
+                <span>Eduk+</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="../../sobre.html">Sobre</a></li>
+                <li><a href="../../trilhas.html">Trilhas</a></li>
+                <li><a href="../../recursos.html">Recursos</a></li>
+                <li><a href="../../quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-content">
+                <span class="hero-tag">Lógica de Programação</span>
+                <h1>Módulo 2</h1>
+                <p>Variáveis, Tipos de Dados e Operadores.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container module-layout">
+                <aside class="module-sidebar">
+                    <h2>Módulos</h2>
+                    <ul class="module-nav">
+                        <li><a href="modulo-1.html">Módulo 1</a></li>
+                        <li><a href="modulo-2.html">Módulo 2</a></li>
+                        <li><a href="modulo-3.html">Módulo 3</a></li>
+                    </ul>
+                    <a class="button button-secondary" href="../../logica-programacao.html">Voltar para trilha</a>
+                </aside>
+
+                <article class="module-content">
+                    <h2>Variáveis, Tipos de Dados e Operadores</h2>
+                    
+                    <p>
+                        Após compreender os conceitos básicos de lógica de programação e algoritmos,
+                        está na hora de aprender como as informações são armazenadas e modificadas
+                        dentro de um programa. Para isso, são usados variáveis e tipos de dados e também
+                        operadores.
+                    </p>
+                    
+                    <p>
+                        Esses conceitos não estão restritos à apenas uma ou duas linguagens de programação.
+                        Na verdade, basicamente todas linguagens utilizam de tais conceitos para armazenar
+                        dados, fazer cálculos e tomar decisões.
+                    </p>
+                    
+                    <h3>O que são variáveis?</h3>
+                    
+                    <p>
+                        Uma variável é um espaço reservado na memória do computador utilizado para
+                        armazenar informações de forma temporária durante a execução de um programa.
+                    </p>
+                    
+                    <p>
+                        Uma variável nada mais é do que uma caixa com um nome que armazena um valor em si.
+                        Esse valor pode sofrer alteração e pode também ser usado como parâmetro para outras
+                        instruções ao longo do programa.
+                    </p>
+                    
+                    <div class="module-note">
+                        <strong>Exemplo:</strong> Imagine uma caixa chamada "idade". Dentro dela
+                        podemos armazenar o valor 21.
+                    </div>
+                    
+                    <p>
+                        Na programação, as variáveis são utilizadas para guardar informações como nome,
+                        idade, endereço, preço, quantidade e diversas outras informações cruciais para
+                        o funcionamento do sistema.
+                    </p>
+                    
+                    <h3>Por que utilizar variáveis?</h3>
+                    
+                    <p>
+                        As variáveis também nos ajudam a reutilizar valores sem precisar ter que
+                        reescrevê-los. Caso não existissem, seria necessário inserir valores no código
+                        sempre que eles fossem solicitados, o que dificultaria o desenvolvimento.
+                    </p>
+                    
+                    <p>
+                        Ao utilizar variáveis, podemos armazenar informações e reutilizá-las em
+                        diferentes partes do programa.
+                    </p>
+                    
+                    <ul>
+                        <li>Facilitam a organização do código.</li>
+                        <li>Permitem reutilizar informações.</li>
+                        <li>Tornam os programas mais flexíveis.</li>
+                        <li>Facilitam futuras alterações.</li>
+                    </ul>
+                    
+                    <h3>Tipos de dados</h3>
+                    
+                    <p>
+                        Entretanto, nem todas as informações fazem parte do mesmo tipo de dado.
+                        Há inforamções que representam texto, há aquelas que representam números e
+                        há também aquelas que apenas indicam valores verdadeiros ou falsos.
+                    </p>
+                    
+                    <p>
+                        Para diferenciar essas informações, utilizamos os chamados tipos de dados.
+                    </p>
+                    
+                    <h4>Números Inteiros</h4>
+                    
+                    <p>
+                        São números sem casas decimais.
+                    </p>
+                    
+                    <ul>
+                        <li>10</li>
+                        <li>25</li>
+                        <li>100</li>
+                        <li>-7</li>
+                    </ul>
+                    
+                    <h4>Números Decimais</h4>
+                    
+                    <p>
+                        São números que possuem casas decimais.
+                    </p>
+                    
+                    <ul>
+                        <li>3.14</li>
+                        <li>7.5</li>
+                        <li>10.99</li>
+                    </ul>
+                    
+                    <h4>Texto (String)</h4>
+                    
+                    <p>
+                        Representa palavras, frases ou qualquer conjunto de caracteres.
+                    </p>
+                    
+                    <ul>
+                        <li>"Lucca"</li>
+                        <li>"Olá Mundo"</li>
+                        <li>"Programação"</li>
+                    </ul>
+                    
+                    <h4>Booleano</h4>
+                    
+                    <p>
+                        É um tipo de dado que pode assumir apenas dois valores:
+                    </p>
+                    
+                    <ul>
+                        <li>Verdadeiro (True)</li>
+                        <li>Falso (False)</li>
+                    </ul>
+                    
+                    <p>
+                        Esse tipo é extremamente importante e está associado diretamente à 
+                        verificação e às tomadas de decisões.
+                    </p>
+                    
+                    <h3>Operadores</h3>
+                    
+                    <p>
+                        Operadores são símbolos utilizados para realizar operações com valores.
+                    </p>
+                    
+                    <h4>Operadores Matemáticos</h4>
+                    
+                    <ul>
+                        <li><strong>+</strong> Adição</li>
+                        <li><strong>-</strong> Subtração</li>
+                        <li><strong>*</strong> Multiplicação</li>
+                        <li><strong>/</strong> Divisão</li>
+                    </ul>
+                    
+                    <div class="module-note">
+                        <strong>Exemplo:</strong>
+                        Se uma variável possui o valor 10 e outra possui o valor 5,
+                        podemos somá-las para obter o resultado 15.
+                    </div>
+                    
+                    <h4>Operadores de Comparação</h4>
+                    
+                    <p>
+                        São utilizados para comparar valores.
+                    </p>
+                    
+                    <ul>
+                        <li><strong>==</strong> Igual a</li>
+                        <li><strong>!=</strong> Diferente de</li>
+                        <li><strong>></strong> Maior que</li>
+                        <li><strong><</strong> Menor que</li>
+                    </ul>
+                    
+                    <p>
+                        O resultado de uma comparação será sempre verdadeiro ou falso.
+                    </p>
+                    
+                    <h3>Aplicação prática</h3>
+                    
+                    <p>
+                        Imagine o sistema de uma escola que precisa armazenar as notas de um aluno
+                        e o nome desse aluno. Nesse caso, o nome do aluno deve ser armazenado como texto
+                        e as notas devem ser armazenadas como números.
+                    </p>
+                    
+                    <p>
+                        Em seguida, o sistema pode utilizar operadores matemáticos e de comparação 
+                        para verificar se a nota é suficiente para a aprovação do aluno.
+                    </p>
+                    
+                    <p>
+                        Esse é um exemplo simples de como variáveis, tipos de dados e operadores
+                        trabalham juntos para resolver problemas reais.
+                    </p>
+                    
+                    <div class="exercise-box">
+                        <h4>Exercício</h4>
+                    
+                        <p>
+                            Identifique o tipo de dado de cada informação abaixo:
+                        </p>
+                    
+                        <ol>
+                            <li>25</li>
+                            <li>"Maria"</li>
+                            <li>8.5</li>
+                            <li>Verdadeiro</li>
+                        </ol>
+                    
+                        <p>
+                            Tente responder antes de avançar para o próximo módulo.
+                        </p>
+                    </div>
+                    
+                    <div class="module-tip">
+                        <strong>Próximo módulo:</strong>
+                        Estruturas condicionais e estruturas de repetição.
+                    </div>
+                    
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-bottom container">Eduk+ | Projeto educacional de tecnologia | 2026</p>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

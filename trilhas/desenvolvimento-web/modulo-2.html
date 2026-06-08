@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 2 | Desenvolvimento Web | Eduk+</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a class="brand" href="../../index.html">
+                <span class="brand-mark">E+</span>
+                <span>Eduk+</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="../../sobre.html">Sobre</a></li>
+                <li><a href="../../trilhas.html">Trilhas</a></li>
+                <li><a href="../../recursos.html">Recursos</a></li>
+                <li><a href="../../quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-content">
+                <span class="hero-tag">Desenvolvimento Web</span>
+                <h1>Módulo 2</h1>
+                <p>HTML e Estrutura de Páginas Web.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container module-layout">
+                <aside class="module-sidebar">
+                    <h2>Módulos</h2>
+                    <ul class="module-nav">
+                        <li><a href="modulo-1.html">Módulo 1</a></li>
+                        <li><a href="modulo-2.html">Módulo 2</a></li>
+                        <li><a href="modulo-3.html">Módulo 3</a></li>
+                    </ul>
+                    <a class="button button-secondary" href="../../desenvolvimento-web.html">Voltar para trilha</a>
+                </aside>
+
+                <article class="module-content">
+                    <h2>HTML e Estrutura de Páginas Web</h2>
+                    
+                    <p>
+                        Agora que já entendemos como a internet e os sites funcionam, chegou o
+                        momento de conhecer a primeira tecnologia utilizada no desenvolvimento web:
+                        o HTML.
+                    </p>
+                    
+                    <p>
+                        O HTML é a base de praticamente todas as páginas da internet. Ele é
+                        responsável por definir a estrutura e a organização dos conteúdos que serão
+                        exibidos para os usuários.
+                    </p>
+                    
+                    <h3>O que é HTML?</h3>
+                    
+                    <p>
+                        HTML significa <em>HyperText Markup Language</em>, ou Linguagem de Marcação
+                        de Hipertexto.
+                    </p>
+                    
+                    <p>
+                        Diferente das linguagens de programação tradicionais, o HTML não é usado
+                        para criar algoritmos ou cálculos complexos. Sua função principal é
+                        estruturar informações em uma página web.
+                    </p>
+                    
+                    <div class="module-note">
+                        <strong>Importante:</strong>
+                        O HTML funciona como o esqueleto de um site, organizando todos os elementos
+                        que aparecerão na tela.
+                    </div>
+                    
+                    <h3>Como funciona o HTML?</h3>
+                    
+                    <p>
+                        O HTML utiliza elementos chamados de <strong>tags</strong>, que servem para
+                        indicar ao navegador o tipo de conteúdo que será exibido.
+                    </p>
+                    
+                    <p>
+                        As tags normalmente possuem uma abertura e um fechamento.
+                    </p>
+                    
+                    <pre>
+                    &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+                    </pre>
+                    
+                    <p>
+                        Nesse exemplo, a tag &lt;p&gt; informa ao navegador que o conteúdo é um
+                        parágrafo.
+                    </p>
+                    
+                    <h3>Estrutura básica de uma página HTML</h3>
+                    
+                    <p>
+                        Toda página HTML possui uma estrutura básica semelhante à apresentada
+                        abaixo:
+                    </p>
+                    
+                    <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Minha Página&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        Conteúdo da página
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                    </pre>
+                    
+                    <h4>Função de cada parte</h4>
+                    
+                    <ul>
+                        <li><strong>DOCTYPE:</strong> informa que o documento utiliza HTML5.</li>
+                        <li><strong>html:</strong> elemento principal da página.</li>
+                        <li><strong>head:</strong> contém configurações invisíveis ao usuário.</li>
+                        <li><strong>title:</strong> define o título exibido na aba do navegador.</li>
+                        <li><strong>body:</strong> contém todo o conteúdo visível da página.</li>
+                    </ul>
+                    
+                    <h3>Títulos</h3>
+                    
+                    <p>
+                        Os títulos são utilizados para organizar o conteúdo e criar uma hierarquia
+                        de informações.
+                    </p>
+                    
+                    <pre>
+                    &lt;h1&gt;Título Principal&lt;/h1&gt;
+                    &lt;h2&gt;Subtítulo&lt;/h2&gt;
+                    &lt;h3&gt;Título Menor&lt;/h3&gt;
+                    </pre>
+                    
+                    <p>
+                        O elemento &lt;h1&gt; representa o título mais importante da página,
+                        enquanto os demais são utilizados para subdividir o conteúdo.
+                    </p>
+                    
+                    <h3>Parágrafos</h3>
+                    
+                    <p>
+                        Os parágrafos são utilizados para exibir textos comuns.
+                    </p>
+                    
+                    <pre>
+                    &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+                    </pre>
+                    
+                    <p>
+                        Grande parte do conteúdo textual de um site é construída utilizando essa
+                        tag.
+                    </p>
+                    
+                    <h3>Listas</h3>
+                    
+                    <p>
+                        As listas ajudam a organizar informações de forma clara e objetiva.
+                    </p>
+                    
+                    <h4>Lista não ordenada</h4>
+                    
+                    <pre>
+                    &lt;ul&gt;
+                        &lt;li&gt;HTML&lt;/li&gt;
+                        &lt;li&gt;CSS&lt;/li&gt;
+                        &lt;li&gt;JavaScript&lt;/li&gt;
+                    &lt;/ul&gt;
+                    </pre>
+                    
+                    <h4>Lista ordenada</h4>
+                    
+                    <pre>
+                    &lt;ol&gt;
+                        &lt;li&gt;Planejar&lt;/li&gt;
+                        &lt;li&gt;Desenvolver&lt;/li&gt;
+                        &lt;li&gt;Publicar&lt;/li&gt;
+                    &lt;/ol&gt;
+                    </pre>
+                    
+                    <h3>Links</h3>
+                    
+                    <p>
+                        Os links permitem navegar entre páginas e sites diferentes.
+                    </p>
+                    
+                    <pre>
+                    &lt;a href="https://www.google.com"&gt;
+                        Acessar Google
+                    &lt;/a&gt;
+                    </pre>
+                    
+                    <p>
+                        O atributo <strong>href</strong> informa o endereço que será acessado.
+                    </p>
+                    
+                    <h3>Imagens</h3>
+                    
+                    <p>
+                        As imagens tornam as páginas mais atrativas e ajudam a transmitir
+                        informações visualmente.
+                    </p>
+                    
+                    <pre>
+                    &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+                    </pre>
+                    
+                    <p>
+                        O atributo <strong>src</strong> define o caminho da imagem e o atributo
+                        <strong>alt</strong> fornece uma descrição para acessibilidade.
+                    </p>
+                    
+                    <h3>Botões</h3>
+                    
+                    <p>
+                        Os botões permitem que o usuário realize ações dentro de uma página.
+                    </p>
+                    
+                    <pre>
+                    &lt;button&gt;Clique Aqui&lt;/button&gt;
+                    </pre>
+                    
+                    <p>
+                        Eles são muito utilizados em formulários, menus e sistemas interativos.
+                    </p>
+                    
+                    <h3>Comentários</h3>
+                    
+                    <p>
+                        Comentários são trechos de texto que não aparecem para o usuário e servem
+                        apenas para organizar o código.
+                    </p>
+                    
+                    <pre>
+                    &lt;!-- Este é um comentário --&gt;
+                    </pre>
+                    
+                    <h3>Boas práticas ao escrever HTML</h3>
+                    
+                    <ul>
+                        <li>Utilizar nomes claros e organizados.</li>
+                        <li>Manter a indentação correta do código.</li>
+                        <li>Utilizar títulos de forma hierárquica.</li>
+                        <li>Adicionar descrições em imagens.</li>
+                        <li>Evitar estruturas desnecessariamente complexas.</li>
+                    </ul>
+                    
+                    <div class="module-note">
+                        <strong>Dica:</strong>
+                        Um código organizado facilita a manutenção e a compreensão do projeto.
+                    </div>
+                    
+                    <h3>HTML na prática</h3>
+                    
+                    <p>
+                        Grande parte dos sites existentes utiliza HTML como base estrutural.
+                    </p>
+                    
+                    <p>
+                        Entretanto, apenas o HTML não é suficiente para criar páginas modernas e
+                        atrativas. Para adicionar cores, animações e estilos visuais, utilizamos o
+                        CSS.
+                    </p>
+                    
+                    <p>
+                        Para adicionar interatividade e comportamentos dinâmicos, utilizamos o
+                        JavaScript.
+                    </p>
+                    
+                    <h3>Conclusão</h3>
+                    
+                    <p>
+                        O HTML é a tecnologia responsável pela estrutura das páginas web. Com ele,
+                        podemos criar títulos, textos, listas, links, imagens e diversos outros
+                        elementos que compõem um site.
+                    </p>
+                    
+                    <p>
+                        Aprender HTML é o primeiro passo para quem deseja ingressar no mundo do
+                        desenvolvimento web.
+                    </p>
+                    
+                    <div class="exercise-box">
+                        <h4>Exercício</h4>
+                    
+                        <p>
+                            Crie uma página HTML contendo:
+                        </p>
+                    
+                        <ul>
+                            <li>Um título principal.</li>
+                            <li>Dois parágrafos.</li>
+                            <li>Uma lista com três itens.</li>
+                            <li>Um link para um site de sua escolha.</li>
+                        </ul>
+                    
+                        <p>
+                            Tente executar o arquivo em seu navegador para visualizar o resultado.
+                        </p>
+                    </div>
+                    
+                    <div class="module-tip">
+                        <strong>Próximo módulo:</strong>
+                        CSS, JavaScript e os próximos passos para se tornar um desenvolvedor web.
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-bottom container">Eduk+ | Projeto educacional de tecnologia | 2026</p>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
