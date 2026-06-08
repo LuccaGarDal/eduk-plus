@@ -193,7 +193,6 @@ if (questionEl && optionsEl && resultEl && nextBtn) {
 
             button.innerHTML = `
                 <h3>${answer.text}</h3>
-                <p>${answer.description}</p>
             `;
 
             button.addEventListener("click", () => {
